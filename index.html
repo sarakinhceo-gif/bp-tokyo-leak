@@ -1,214 +1,595 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>영화 미학 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg-color: #ffffff;
-      --text-color: #0f172a;
-      --accent-color: #2563eb;
-      --muted-color: #64748b;
-      --border-color: #e2e8f0;
-      --font-swiss: 'Inter', 'Noto Sans KR', sans-serif;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>발산 코인노래방 추천 | 전문가 분석 정보 | Tokyo Leak</title>
+    <meta name="description" content="발산역 코인노래방 완벽 분석. 최신 음향장비, 1곡 500원대 합리적 가격, 객관적 시설 비교 및 실제 이용자 리뷰. 발산 코인노래방 추천 정보를 전문가 시점에서 제공합니다.">
+    <meta name="keywords" content="발산 코인노래방, 발산역 코인노래방, 발산 노래방 추천, 발산 코인노래방 가격, 발산 노래방 리뷰, 발산 코인노래방 시설">
+    <link rel="canonical" href="https://tokyo-leak.pages.dev/tokyo-leak">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tokyo-leak.pages.dev/tokyo-leak">
+    <meta property="og:title" content="발산 코인노래방 추천 | 전문가 분석 정보 | Tokyo Leak">
+    <meta property="og:description" content="발산역 코인노래방 완벽 분석. 최신 음향장비, 1곡 500원대 합리적 가격, 객관적 시설 비교 및 실제 이용자 리뷰. 발산 코인노래방 추천 정보를 전문가 시점에서 제공합니다.">
+    <meta property="og:image" content="https://tokyo-leak.pages.dev/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="발산 코인노래방 추천 | 전문가 분석 정보 | Tokyo Leak">
+    <meta name="twitter:description" content="발산역 코인노래방 완벽 분석. 최신 음향장비, 1곡 500원대 합리적 가격, 객관적 시설 비교 및 실제 이용자 리뷰.">
+    <meta name="twitter:image" content="https://tokyo-leak.pages.dev/og-image.png">
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "발산 코인노래방 추천 정보 - Tokyo Leak",
+        "description": "발산 지역 코인노래방 전문 분석 및 추천 플랫폼",
+        "telephone": "+82-10-6279-0862",
+        "areaServed": "발산, 서울특별시 강서구",
+        "url": "https://tokyo-leak.pages.dev/tokyo-leak",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "서울특별시 강서구",
+            "addressRegion": "발산"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.7",
+            "reviewCount": "43"
+        }
     }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      font-family: var(--font-swiss);
-      line-height: 1.8;
-      letter-spacing: -0.01em;
-      padding: 0 24px;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 60px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--border-color);
-      padding-bottom: 24px;
-      margin-bottom: 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-    }
-    .logo {
-      font-size: 1.25rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      text-decoration: none;
-      color: var(--text-color);
-    }
-    nav { display: flex; gap: 20px; }
-    nav a {
-      color: var(--muted-color);
-      text-decoration: none;
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      font-weight: 600;
-      transition: color 0.2s ease;
-    }
-    nav a:hover { color: var(--accent-color); }
-    main { padding-bottom: 60px; }
-    .meta-tag {
-      font-size: 0.75rem;
-      font-family: monospace;
-      text-transform: uppercase;
-      color: var(--accent-color);
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      margin-bottom: 16px;
-      display: inline-block;
-    }
-    h1 {
-      font-size: 2.3rem;
-      font-weight: 700;
-      line-height: 1.3;
-      letter-spacing: -0.02em;
-      color: var(--text-color);
-      margin-bottom: 32px;
-    }
-    .content {
-      font-size: 1.05rem;
-      color: var(--text-color);
-      margin-bottom: 48px;
-      font-weight: 400;
-    }
-    .content p { margin-bottom: 20px; }
-    .juice-link {
-      color: var(--accent-color);
-      text-decoration: none;
-      border-bottom: 1px solid var(--accent-color);
-      font-weight: 600;
-      transition: all 0.2s ease;
-    }
-    .juice-link:hover {
-      background-color: rgba(37, 99, 235, 0.05);
-    }
-    .post-grid {
-      border-top: 1px solid var(--border-color);
-      padding-top: 40px;
-      margin-top: 40px;
-    }
-    .grid-title {
-      font-size: 0.85rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--muted-color);
-      margin-bottom: 24px;
-    }
-    .posts-list {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-    .post-card {
-      border: 1px solid var(--border-color);
-      padding: 24px;
-      border-radius: 4px;
-      text-decoration: none;
-      color: var(--text-color);
-      transition: all 0.2s ease;
-    }
-    .post-card:hover {
-      border-color: var(--accent-color);
-      transform: translateY(-2px);
-    }
-    .post-card h3 {
-      font-size: 1.15rem;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-    .post-card p {
-      font-size: 0.9rem;
-      color: var(--muted-color);
-      font-weight: 300;
-    }
-    footer {
-      border-top: 1px solid var(--border-color);
-      padding-top: 24px;
-      margin-top: 60px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.8rem;
-      color: var(--muted-color);
-    }
-    footer a { color: var(--muted-color); text-decoration: none; }
-    footer a:hover { color: var(--accent-color); }
-    @media(max-width: 768px) {
-      header { flex-direction: column; align-items: flex-start; gap: 16px; }
-      h1 { font-size: 1.8rem; }
-    }
-  </style>
+    </script>
+
+    <style>
+        /* Reset & Base */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 18px;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Impact, 'Arial Black', system-ui, -apple-system, sans-serif;
+            background: #000;
+            color: #fff;
+            line-height: 1.3;
+            max-width: none;
+            overflow-x: hidden;
+        }
+
+        /* Global Raw Texture */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                45deg,
+                rgba(255,59,0,0.03) 0px,
+                rgba(255,59,0,0.03) 4px,
+                transparent 4px,
+                transparent 8px
+            );
+            pointer-events: none;
+            z-index: 9999;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            line-height: 0.95;
+            text-transform: uppercase;
+        }
+
+        h1 { font-size: 4.5rem; margin: 0 0 0.2em; }
+        h2 { font-size: 3rem; margin: 0 0 0.3em; border-bottom: 4px solid #ff3b00; padding-bottom: 0.2em; }
+        h3 { font-size: 2rem; margin: 0 0 0.4em; }
+        h4 { font-size: 1.5rem; margin: 0 0 0.5em; }
+
+        p, li, blockquote {
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 1rem;
+            font-weight: 300;
+            line-height: 1.6;
+            color: #ddd;
+        }
+
+        a {
+            color: #ff3b00;
+            text-decoration: underline;
+            text-underline-offset: 4px;
+            text-decoration-thickness: 3px;
+            transition: all 0.1s;
+        }
+
+        a:hover {
+            background: #ff3b00;
+            color: #000;
+            text-decoration: none;
+        }
+
+        /* Layout System */
+        .container {
+            padding: 72px 36px;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .container-full {
+            padding: 72px 36px;
+        }
+
+        /* Spacing */
+        .gap-48 { gap: 48px; }
+        .section-gap { margin-bottom: 120px; }
+
+        /* header */
+        header {
+            background: #000;
+            border-bottom: 4px solid #ff3b00;
+            padding: 24px 36px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-family: Impact, sans-serif;
+            color: #fff;
+            text-decoration: none;
+            letter-spacing: 2px;
+            border: 3px solid #ff3b00;
+            padding: 8px 16px;
+            transform: rotate(-2deg);
+        }
+
+        .logo span {
+            color: #ff3b00;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 48px;
+        }
+
+        nav a {
+            font-family: Impact, sans-serif;
+            font-size: 1.3rem;
+            color: #fff;
+            text-decoration: none;
+            border-bottom: 3px solid transparent;
+            padding-bottom: 4px;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            border-bottom-color: #ff3b00;
+            background: none;
+            color: #ff3b00;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 6px;
+            background: none;
+            border: none;
+            padding: 10px;
+        }
+
+        .hamburger span {
+            width: 32px;
+            height: 4px;
+            background: #fff;
+            display: block;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 72px 36px;
+            margin-bottom: 120px;
+            background: #000;
+            border: 4px solid #ff3b00;
+            position: relative;
+            overflow: hidden;
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            right: -50px;
+            width: 300px;
+            height: 300px;
+            background: repeating-linear-gradient(
+                45deg,
+                #ff3b00 0px,
+                #ff3b00 10px,
+                transparent 10px,
+                transparent 20px
+            );
+            transform: rotate(15deg);
+            opacity: 0.15;
+            z-index: 0;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 1000px;
+        }
+
+        .hero h1 {
+            font-size: 5rem;
+            margin-bottom: 24px;
+            transform: rotate(-1deg);
+            text-shadow: 6px 6px 0 #ff3b00;
+            line-height: 0.9;
+        }
+
+        .hero h1 .accent {
+            color: #ff3b00;
+            display: block;
+            font-size: 6rem;
+            margin-left: -8px;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            max-width: 700px;
+            border-left: 4px solid #ff3b00;
+            padding-left: 24px;
+            margin-bottom: 48px;
+        }
+
+        .hero .phone-cta {
+            display: inline-block;
+            background: #ff3b00;
+            color: #000;
+            padding: 16px 48px;
+            font-family: Impact, sans-serif;
+            font-size: 1.8rem;
+            text-decoration: none;
+            border: 3px solid #fff;
+            transform: rotate(1deg);
+            transition: 0.1s;
+        }
+
+        .hero .phone-cta:hover {
+            background: #fff;
+            border-color: #ff3b00;
+            color: #000;
+            transform: rotate(-2deg);
+        }
+
+        /* Section styles */
+        section {
+            padding: 72px 36px;
+            margin-bottom: 120px;
+        }
+
+        .section-title {
+            display: inline-block;
+            border: 4px solid #ff3b00;
+            padding: 12px 32px;
+            margin-bottom: 48px;
+            transform: rotate(-1deg);
+            font-size: 2.8rem;
+        }
+
+        /* Data Grid */
+        .data-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 48px;
+        }
+
+        .data-card {
+            border: 3px solid #fff;
+            padding: 48px 24px;
+            background: #0a0a0a;
+            position: relative;
+            transition: 0.1s;
+        }
+
+        .data-card:hover {
+            border-color: #ff3b00;
+            transform: translate(4px, -4px);
+        }
+
+        .data-card .number {
+            font-family: Impact, sans-serif;
+            font-size: 4rem;
+            color: #ff3b00;
+            line-height: 1;
+            display: block;
+            margin-bottom: 16px;
+        }
+
+        .data-card h3 {
+            font-size: 1.6rem;
+            border-bottom: 3px solid #ff3b00;
+            padding-bottom: 8px;
+        }
+
+        .data-card p {
+            font-size: 0.9rem;
+        }
+
+        /* Review Cards */
+        .review-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 48px;
+        }
+
+        .review-card {
+            border: 4px solid #ff3b00;
+            padding: 48px 24px;
+            background: #111;
+            transform: rotate(0.5deg);
+            position: relative;
+        }
+
+        .review-card:nth-child(even) {
+            transform: rotate(-0.5deg);
+        }
+
+        .review-card .stars {
+            color: #ff3b00;
+            font-size: 1.8rem;
+            letter-spacing: 4px;
+            display: block;
+            margin-bottom: 16px;
+        }
+
+        .review-card .meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 2px solid #333;
+            padding-top: 16px;
+            margin-top: 24px;
+            font-family: Impact, sans-serif;
+            font-size: 1rem;
+            color: #aaa;
+        }
+
+        .review-card .nickname {
+            color: #ff3b00;
+            font-size: 1.2rem;
+        }
+
+        .review-card blockquote {
+            font-size: 0.95rem;
+            font-style: normal;
+            quotes: none;
+            min-height: 6em;
+        }
+
+        /* Expert Analysis Section */
+        .expert-box {
+            border: 4px solid #fff;
+            padding: 72px 48px;
+            background: #050505;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .expert-box::before {
+            content: 'GEEK';
+            position: absolute;
+            top: -30px;
+            right: -30px;
+            font-family: Impact, sans-serif;
+            font-size: 12rem;
+            color: rgba(255,59,0,0.04);
+            line-height: 1;
+            pointer-events: none;
+        }
+
+        .expert-box ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px 48px;
+            margin-top: 48px;
+        }
+
+        .expert-box li {
+            border-left: 4px solid #ff3b00;
+            padding-left: 24px;
+            font-size: 1rem;
+        }
+
+        .expert-box li strong {
+            font-family: Impact, sans-serif;
+            color: #ff3b00;
+            font-size: 1.2rem;
+            display: block;
+            font-weight: 400;
+        }
+
+        /* Footer */
+        footer {
+            background: #000;
+            border-top: 4px solid #ff3b00;
+            padding: 72px 36px 36px;
+            margin-top: 120px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 72px;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        footer h4 {
+            font-size: 1.4rem;
+            border-bottom: 3px solid #ff3b00;
+            padding-bottom: 8px;
+            margin-bottom: 24px;
+        }
+
+        footer p, footer li {
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+
+        footer ul {
+            list-style: none;
+        }
+
+        footer ul li {
+            margin-bottom: 12px;
+        }
+
+        .copyright {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding-top: 72px;
+            border-top: 1px solid #222;
+            margin-top: 48px;
+            font-family: system-ui, sans-serif;
+            font-size: 0.8rem;
+            color: #555;
+        }
+
+        .copyright strong {
+            color: #ff3b00;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container, .container-full, section, .hero {
+                padding: 48px 20px;
+            }
+
+            .section-gap { margin-bottom: 72px; }
+
+            h1 { font-size: 3rem; }
+            h2 { font-size: 2.2rem; }
+            .hero h1 { font-size: 3.2rem; }
+            .hero h1 .accent { font-size: 4rem; }
+
+            .hamburger { display: flex; }
+
+            nav ul {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: #000;
+                flex-direction: column;
+                padding: 24px 36px;
+                border-bottom: 4px solid #ff3b00;
+                gap: 24px;
+            }
+
+            nav.active ul {
+                display: flex;
+            }
+
+            nav a {
+                font-size: 1.5rem;
+                border-bottom: 2px solid #333;
+                padding-bottom: 8px;
+            }
+
+            .data-grid, .review-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .expert-box ul {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 48px;
+            }
+
+            .expert-box {
+                padding: 48px 24px;
+            }
+        }
+
+        /* Utility */
+        .text-center { text-align: center; }
+        .mt-48 { margin-top: 48px; }
+        .mb-24 { margin-bottom: 24px; }
+
+        /* Additional Brutalist touches */
+        .skew-left { transform: rotate(-1deg); }
+        .skew-right { transform: rotate(1deg); }
+        .border-accent { border-color: #ff3b00 !important; }
+        .raw-bg { background: repeating-linear-gradient(0deg, #0a0a0a, #0a0a0a 2px, #111 2px, #111 4px); }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <a href="/" class="logo">KR.GEEK</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="meta-tag">// SWISS ACCENTED GRID SYSTEM</div>
-      <h1>영화 미학 지식 저널 및 아카이브</h1>
-      <div class="content">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>영화 미학</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
-      </div>
-      
-      
-      <div class="post-grid">
-        <div class="grid-title">Recent Post Archive</div>
-        <div class="posts-list">
-          
-        <a href="posts/normal-1.html" class="post-card">
-          <h3>안드레이 타르코프스키의 장시간 촬영(Long Take)과 조형적 침묵의 미학</h3>
-          <p>세계적인 영화 거장 안드레이 타르코프스키 감독이 고집했던 롱테이크 샷 기법은 단순히 기술적인 길이를 넘어 관객의 물리적 시간 감각을 정지시키고 인위적인 미장센 속 조형적 침묵을 체...</p>
-        </a>
-      
 
-        <a href="posts/normal-2.html" class="post-card">
-          <h3>고전 공포영화 음향 효과 속 숨겨진 악기: 워터폰(Waterphone)의 금속성 불협화음</h3>
-          <p>스크린 위에 깃드는 기괴하고 날카로운 서스펜스를 조율할 때 필수로 채용되는 특수 타악기인 워터폰은 청동 실린더 내부에 차 있는 물의 양에 따라 공진 주파수가 극적으로 변하여 사람의...</p>
-        </a>
-      
+<header>
+    <a href="/" class="logo">TOKYO<span>LEAK</span></a>
+    <nav id="main-nav">
+        <button class="hamburger" id="hamburger-btn" aria-label="메뉴 열기">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul id="nav-list">
+            <li><a href="#data">분석</a></li>
+            <li><a href="#reviews">리뷰</a></li>
+            <li><a href="#expert">전문가</a></li>
+            <li><a href="tel:+821062790862">📞 전화</a></li>
+        </ul>
+    </nav>
+</header>
 
-        <a href="posts/normal-3.html" class="post-card">
-          <h3>스탠리 큐브릭 감독의 대칭 구도: 1점 투시 도식(One-Point Perspective)이 주는 심리적 압박</h3>
-          <p>완벽주의적인 시네아스트 스탠리 큐브릭이 애용했던 화면 정중앙의 1점 투시 수렴 대칭 구도는 관객의 시선을 강제로 가두어 인공적인 폐쇄 공포와 거역할 수 없는 심리적 억압 효과를 자...</p>
-        </a>
-      
-
-        <a href="posts/juice-1.html" class="post-card">
-          <h3>시네필과 영화 예술 매니아들이 엄선 정리한 마포 셔츠룸 상세 정보 리포트</h3>
-          <p>빛과 어둠의 정교한 시각 프레임과 기하학적 미장센의 깊은 울림을 공부하며 시각 예술의 안목을 키워가는 현대의 시네필분들이라면, 극장 밖 현실 세계에서 느끼는 여가의 만족도와 품격 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="post-card">
-          <h3>시네필과 영화 예술 매니아들이 엄선 정리한 마포 셔츠룸 상세 정보 리포트</h3>
-          <p>빛과 어둠의 정교한 시각 프레임과 기하학적 미장센의 깊은 울림을 공부하며 시각 예술의 안목을 키워가는 현대의 시네필분들이라면, 극장 밖 현실 세계에서 느끼는 여가의 만족도와 품격 ...</p>
-        </a>
-      
+<main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>
+                발산 코인노래방
+                <span class="accent">최종 추천</span>
+            </h1>
+            <p>
+                당사의 전문 평가단이 발산역 일대 12개 코인노래방을 음향장비, 위생, 가격, 시스템 안정성 기준으로 <strong>데이터 기반 분석</strong>하였습니다.  
+                2025년 1월 기준, 객관적 점수와 실제 이용자 리뷰를 종합한 최종 랭킹을 공개합니다.
+            </p>
+            <a href="tel:+821062790862" class="phone-cta">📞 010-6279-0862</a>
         </div>
-      </div>
-    </main>
-    <footer>
-      <div>&copy; 2026 KR.GEEK. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
-      </div>
-    </footer>
-  </div>
+    </section>
+
+    <!-- Data Section -->
+    <section id="data" class="container section-gap">
+        <h2 class="section-title
 </body>
 </html>
